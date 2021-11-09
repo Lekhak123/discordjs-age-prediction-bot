@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^3.11.0",
+    "@tensorflow/tfjs-node-gpu": "^3.11.0",
+    "@vladmandic/face-api": "^1.5.7",
+    "axios": "^0.24.0",
+    "canvas": "^2.8.0",
+    "discord.js": "^13.3.1"
+  }
+}
