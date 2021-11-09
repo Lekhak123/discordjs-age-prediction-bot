@@ -59,7 +59,7 @@ client.on("messageCreate", async message => {
                                 const detections = await faceapi.detectAllFaces(image, new faceapi.TinyFaceDetectorOptions()).withAgeAndGender();
                                 image.dispose()
 
-                                let kek = detections[0].age;
+                                let kek = detections[0].gender;
                                 let old = detections[0].age;
                                 const exampleEmbed = new MessageEmbed()
                                     .setColor('#0099ff')
